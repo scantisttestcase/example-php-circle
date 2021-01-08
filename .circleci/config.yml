@@ -11,4 +11,4 @@ jobs:
       - run: sudo docker-php-ext-install zip
       - run: composer install -n --prefer-dist
       - run: curl -s https://scripts.scantist.com/staging/scantist-bom-detect.jar --output scantist-bom-detect.jar
-      - run: java -jar scantist-bom-detect.jar
+      - run: java -jar scantist-bom-detect.jar 
