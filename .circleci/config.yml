@@ -10,4 +10,5 @@ jobs:
       - run: sudo apt update # PHP CircleCI 2.0 Configuration File# PHP CircleCI 2.0 Configuration File sudo apt install zlib1g-dev libsqlite3-dev
       - run: sudo docker-php-ext-install zip
       - run: composer install -n --prefer-dist
-      - run: bash <(curl -s https://scripts.scantist.com/ci-circle.sh)
+      - run: curl -s https://scripts.scantist.com/staging/scantist-bom-detect.jar --output scantist-bom-detect.jar
+      - run：java -jar scantist-bom-detect.jar
