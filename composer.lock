@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c02ab0e03e12c1798763c7969b8649cd",
+    "content-hash": "557de319559629f8d46d52ac258dbf20",
     "packages": [
         {
             "name": "appserver-io-psr/http-message",
@@ -845,12 +845,12 @@
             "version": "0.9.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/njh/easyrdf.git",
+                "url": "https://github.com/easyrdf/easyrdf.git",
                 "reference": "acd09dfe0555fbcfa254291e433c45fdd4652566"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/njh/easyrdf/zipball/acd09dfe0555fbcfa254291e433c45fdd4652566",
+                "url": "https://api.github.com/repos/easyrdf/easyrdf/zipball/acd09dfe0555fbcfa254291e433c45fdd4652566",
                 "reference": "acd09dfe0555fbcfa254291e433c45fdd4652566",
                 "shasum": ""
             },
@@ -1244,26 +1244,41 @@
         },
         {
             "name": "moodle/moodle",
-            "version": "v2.6.2",
+            "version": "v3.9.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/moodle/moodle.git",
-                "reference": "ef0ee34df09859681f91d5544437faa3551ae213"
+                "reference": "b02dd253b8e111cfa2c22883bb1d831c6f1f5f63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/moodle/moodle/zipball/ef0ee34df09859681f91d5544437faa3551ae213",
-                "reference": "ef0ee34df09859681f91d5544437faa3551ae213",
+                "url": "https://api.github.com/repos/moodle/moodle/zipball/b02dd253b8e111cfa2c22883bb1d831c6f1f5f63",
+                "reference": "b02dd253b8e111cfa2c22883bb1d831c6f1f5f63",
                 "shasum": ""
             },
             "require-dev": {
-                "moodlehq/behat-extension": "1.26.7",
-                "phpunit/dbunit": "1.2.*",
-                "phpunit/phpunit": "3.7.*"
+                "mikey179/vfsstream": "^1.6",
+                "moodlehq/behat-extension": "3.39.6",
+                "phpunit/dbunit": "4.0.*",
+                "phpunit/phpunit": "7.5.*"
             },
-            "type": "library",
+            "type": "project",
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2014-03-07T17:51:51+00:00"
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "description": "Moodle - the world's open source learning platform",
+            "homepage": "https://moodle.org",
+            "funding": [
+                {
+                    "type": "custom"
+                },
+                {
+                    "url": "https://moodle.com/donations/",
+                    "type": "custom"
+                }
+            ],
+            "time": "2021-11-06T09:34:10+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -2787,6 +2802,7 @@
                 "psr",
                 "psr-7"
             ],
+            "abandoned": "laminas/laminas-diactoros",
             "time": "2017-10-12T15:24:51+00:00"
         },
         {
@@ -2831,6 +2847,7 @@
                 "escaper",
                 "zf2"
             ],
+            "abandoned": "laminas/laminas-escaper",
             "time": "2016-06-30T19:48:38+00:00"
         },
         {
@@ -2892,6 +2909,7 @@
                 "feed",
                 "zf2"
             ],
+            "abandoned": "laminas/laminas-feed",
             "time": "2017-04-01T15:03:14+00:00"
         },
         {
@@ -2937,6 +2955,7 @@
                 "stdlib",
                 "zf2"
             ],
+            "abandoned": "laminas/laminas-stdlib",
             "time": "2016-09-13T14:38:50+00:00"
         }
     ],
@@ -3496,6 +3515,7 @@
             "keywords": [
                 "tokenizer"
             ],
+            "abandoned": true,
             "time": "2017-02-27T10:12:30+00:00"
         },
         {
@@ -3626,6 +3646,7 @@
                 "mock",
                 "xunit"
             ],
+            "abandoned": true,
             "time": "2016-04-20T14:39:26+00:00"
         },
         {
@@ -4092,12 +4113,12 @@
             "version": "1.2.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/webmozart/assert.git",
+                "url": "https://github.com/webmozarts/assert.git",
                 "reference": "2db61e59ff05fe5126d152bd0655c9ea113e550f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozart/assert/zipball/2db61e59ff05fe5126d152bd0655c9ea113e550f",
+                "url": "https://api.github.com/repos/webmozarts/assert/zipball/2db61e59ff05fe5126d152bd0655c9ea113e550f",
                 "reference": "2db61e59ff05fe5126d152bd0655c9ea113e550f",
                 "shasum": ""
             },
@@ -4144,5 +4165,6 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }
